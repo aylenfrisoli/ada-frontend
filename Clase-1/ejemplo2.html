@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo con estilo</title>
+  <!-- A continuación le damos un "estilo" al contenido.
+   Los estilos se llaman dentro de las etiquetas "head" 
+   Generalmente se utiliza un archivo externo con extensión "css" 
+   (Cascade Style Sheets - Hoja de estilos en cascada) 
+   Pero también se pueden declarar dentro del head -->
+  <style>
+    body {
+      font-family: Arial;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+  <!-- Repasando lo anterior, la palabra que está delante de la llave ({) se llama "clase".
+   Si lleva el nombre idéntico a una etiqueta html, el navegador sabe que le debe aplicar el estilo
+   declarado dentro de las llaves a ese elemento.
+   Si la clase tiene un punto (.) adelante, es una clase personalizada y se puede llamar desde cualquier
+   etiqueta html. -->
+</head>
+<body>
+  <div class="card"><!-- "div" es un tipo de contenedor flexible -->
+    <h1>Mi primera página</h1>
+    <h3>Subtítulo</h3>
+    <p>Ahora se ve un poco más linda.</p>
+  </div>
+  <a href="../../index.html"> M2 FrontEnd - INDEX </a>
+</body>
+</html>
