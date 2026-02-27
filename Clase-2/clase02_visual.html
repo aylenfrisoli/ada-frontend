@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Guía Práctica Clase 02</title>
+</head>
+<html lang="es">
+  <body>
+    <h1>Clase 02 - HTML Medio</h1>
+    <h2>Jueves 19 de febrero</h2>
+    <h3>Guía de clase</h3>
+    <br>
+    <hr>
+    <br>
+    <h3>Párrafo p </h3>
+    <p>Este es un párrafo de ejemplo para mostrar cómo se estructura el texto en HTML.</p>
+    <p>Los párrafos permiten organizar ideas y separar contenido.</p>
+    <br><!-- Salto de línea -->
+    <hr><!-- Línea divisoria -->
+    <br>
+    <h3>Div</h3>
+    <div><!-- Funciona como espacio contenedor delimintado -->
+      <h4>Sección dentro de un div</h4>
+      <p>Este párrafo contiene una <span style="font-size: xx-large;">palabra marcada</span> usando span.</p>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h3>Comentario oculto !-- </h3>
+    <p>Shhh no digas nada, pero si ves en editor verás un texto oculto...</p>
+    <!-- Este es un comentario que no se muestra en la página -->
+    <br>
+    <hr>
+    <br>
+    <h3>Saltos de línea br y línea divisoria hr </h3>
+    <p>Primera línea de texto<br>Segunda línea de texto</p>
+    <!-- El salto de línea funciona como apretar Enter en el teclado o un punto y aparte al redactar. -->
+    <br>
+    <hr>
+    <br>
+    <h3>Resalte de texto strong </h3>
+    <p>Este texto tiene una palabra en <strong>énfasis</strong> y otra marcada con <span style="color:#00ff00;">span</span>.</p>
+    <br>
+    <hr>
+    <br>
+    <h3>Listas</h3>
+    <!-- Los elementos se listan precedidos por un bullet • -->
+    <h4>Lista desordenada</h4>
+    <ul>
+      <li>Elemento uno</li>
+      <li>Elemento dos</li>
+      <li>Elemento tres</li>
+    </ul>
+    <!-- Los elementos se listan precedidos por un número de orden -->
+    <h4>Lista ordenada</h4>
+    <ol>
+      <li>Paso uno</li>
+      <li>Paso dos</li>
+      <li>Paso tres</li>
+    </ol>
+    <!-- Muestra una palabra a modo de título y luego su definición o significado -->
+    <h4>Lista de definición</h4>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Lenguaje para estructurar contenido.</dd>
+      <dt>CSS</dt>
+      <dd>Lenguaje para dar estilo.</dd>
+    </dl>
+    <!-- Combina las anteriores -->
+    <h4>Lista anidada</h4>
+    <ul>
+      <li>Frutas
+        <dl>
+          <dt>Fruta:</dt>
+          <dd>fruto comestible obtenido de plantas cultivadas o silvestres.</dd>
+        </dl>
+        <ul>
+          <li>Manzana</li>
+          <li>Banana</li>
+        </ul>
+      </li>
+      <li>Colores
+        <ol>
+          <li>Rojo</li>
+          <li>Amarillo</li>
+          <li>Verde</li>
+        </ol>
+      </li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <!-- Hipervínculos -->
+    <h3 id="rutasanclas">Rutas y anclas</h3>
+    <ul>
+        <li><a href="#absoluta">Ruta absoluta</a></li>
+        <li><a href="#relativa">Ruta relativa</a></li>
+        <li><a href="#blank">Target externo</a></li>
+        <li><a href="#correo">Email</a></li>
+        <li><a href="#tip">Tip rápido para anclas</a></li>
+    </ul>
+    <h4 id="absoluta">Ruta absoluta</h4>
+    <a href="https://www.google.com">Link externo con ruta absoluta. Reemplazará la página actual porque no definimos Target, el atributo que define donde se va a cargar la página que llamamos.</a><br />
+    <br />
+    <h4 id="relativa">Ruta relativa</h4>
+    <a href="relativa.html">Link interno con ruta relativa. También reemplazará la página actual.</a><br>
+    Esta ruta dirige a otra página html que está ubicada en la misma carpeta que la guía.<br/>
+    <br />
+    <h4 id="blank">Target externo</h4>
+    <a href="https://www.wikipedia.org" target="_blank">Target (destino) _blank es el valor que usamos para abrir en una pestaña nueva.</a><br>
+    Existen otros valores pero no los necesitamos en esta etapa.<br/>
+    <br />
+    <h4 id="correo">Enviar correo</h4>
+    <a href="mailto:ejemplo@correo.com">Enviar email - Llama a la aplicación por defecto que tenga instalado el usuario.</a><br/>
+    <br/>
+    <p id="tip"></p>
+    <h4>Tip rápido para anclas</h4>
+    <p>Antes del título y este texto coloqué el ancla dentro de un párrafo vacío para que el salto no quede pegado arriba.<br/>
+    Hay otras formas más avanzadas, pero quería mostrarles este recurso rápido.</p><br/>
+    <br>
+    <hr>
+    <br><!-- No hagan esto de poner tantos br 
+    Solamente lo hice para no espoilear lo que sigue -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><!-- Una a continuación de la otra funciona igual -->
+    <br><br><br><br><br><br><br><br>
+    <br><!-- brrrrrrrrrrr -->
+    <h3>Imágenes</h3>
+    <h4>Imagen</h4>
+    <img src="../../images/uschi_du-woman-3289372_1920.jpg" alt="Descripción de la imagen" title="Foto Retrato" width="300">
+    <p>Si la imagen no existe o tiene algún problema para mostrarse. Esto se ve en el lector de pantalla.</p>
+    <p>Alt - Texto alternativo de la imagen </p>
+    <img src="../../images/foto.jpg" alt="Esta foto no se ve" width="300">
+    <br>
+    <hr>
+    <br>
+    <h4>Figure y Figcaption </h4>
+    <figure>
+      <img src="../../images/yacubee-cat-7533717_1920.jpg" alt="Gato durmiendo" title="Gatito" height="200">
+      <figcaption>Mi gato durmiendo la siesta</figcaption>
+    </figure>
+    <h4>Clon usando div y párrafo </h4>
+    <div>
+      <img src="../../images/yacubee-cat-7533717_1920.jpg" alt="Gato durmiendo" title="Gatito" height="200">
+      <p>Mi gato durmiendo la siesta</p>
+    </div>
+    <h4>Clon usando div y salto de línea br </h4>
+    <div>
+      <img src="../../images/yacubee-cat-7533717_1920.jpg" alt="Gato durmiendo" title="Gatito" height="200"><br>
+      Mi gato durmiendo la siesta
+    </div>
+    <a href="../../index.html"> M2 FrontEnd - INDEX </a>
+  </body>
+</html>
