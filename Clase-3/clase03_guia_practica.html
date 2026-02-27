@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 03 - Guía Práctica</title>
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- HEADER + NAV -->
+    <!-- ========================= -->
+    <header>
+        <h1>Clase 03 - Guía Práctica</h1>
+        <h2>Demostración de HTML Semántico</h2>
+
+        <nav>
+            <ul>
+                <li><a href="#intro">Introducción</a></li>
+                <li><a href="#articulo">Artículo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="ejemplo_secciones.html">Ejemplo secciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- ========================= -->
+    <!-- MAIN CONTENT -->
+    <!-- ========================= -->
+    <main>
+
+        <!-- Sección 1 -->
+        <section id="intro">
+            <h3>Introducción</h3>
+
+            <p>
+                Esta es una página creada para practicar la estructura semántica de HTML.
+                Aquí podemos ver ejemplos de <strong>importancia</strong>,
+                énfasis con <em>énfasis</em>,
+                y una cita breve como <q>esto es una cita corta</q>.
+            </p>
+
+            <blockquote cite="https://www.example.com">
+                “Esta es una cita más larga, ideal para mostrar el uso de blockquote.”
+            </blockquote>
+
+            <p>
+                Fuente: <cite>Ejemplo de documentación HTML</cite>
+            </p>
+        </section>
+
+
+        <!-- Artículo -->
+        <article id="articulo">
+            <header>
+                <h3>Artículo de ejemplo</h3>
+            </header>
+
+            <p>
+                Este artículo demuestra cómo un <code>&lt;article&gt;</code> puede contener su propio
+                encabezado y elementos internos.
+            </p>
+
+            <figure>
+                <img src="../../images/yacubee-cat-7533717_1920.jpg" alt="Gato durmiendo" title="Gatito" height="200">
+                <figcaption>Una imagen ilustrativa dentro de un figure.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../../images/sunriseforever-woman-10093781_1280.jpg" alt="Plano medio de una mujer que sonríe, lleva puesto vestido blanco y está parada delante de unas plantas con flores rosadas." title="Mujer sonriente" height="200">
+                <img src="../../images/uschi_du-woman-3289372_1920.jpg" alt="Primer plano una mujer con leve sonrisa, lleva puesta una campera de cuero marrón. Fondo claro difuminado." title="Mujer contenta" height="200">
+                <figcaption>Imágenes de mujeres felices.</figcaption>
+            </figure>
+
+            <footer>
+                <p>Publicado por: <strong>Autora Inés Sistente</strong></p>
+            </footer>
+        </article>
+
+    </main>
+
+
+    <!-- ========================= -->
+    <!-- ASIDE -->
+    <!-- ========================= -->
+    <aside>
+        <h4>Contenido relacionado</h4>
+        <ul>
+            <li>Enlace útil 1</li>
+            <li>Enlace útil 2</li>
+            <li>Dato curioso</li>
+        </ul>
+    </aside>
+
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+    <footer id="contacto">
+        <p>Contacto: <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a></p>
+        <p>© 2026 - Página de ejemplo para Clase 03</p>
+    </footer>
+
+</body>
+</html>
